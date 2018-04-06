@@ -2,6 +2,7 @@
 var uuid = require('uuid');
 var axios = require('axios');
 var config = require('../../server/config/config')['test'];
+var helper = require('./../../test/acceptance-specs-helper');
 
 describe('/api', function(){
     'use strict';
